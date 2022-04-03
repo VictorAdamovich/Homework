@@ -13,10 +13,8 @@ function Message(props: MessageType) {
     return (
         <div className={classes.Messages}>
             <div className={classes.bg}>
-                <div className={classes.bgBorder}>
-                    <div className={classes.userPic}>
-                        <img src={props.avatar} alt="UserAvatar"/>
-                    </div>
+                <div className={classes.userPic}>
+                    <img src={props.avatar} alt="UserAvatar"/>
                 </div>
             </div>
             <div className={classes.messagesBox}>
