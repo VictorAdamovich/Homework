@@ -1,6 +1,6 @@
 import React from 'react'
 import {render} from '@testing-library/react'
-import Message from '../Message'
+import Message from '../message/Message'
 
 test('find text "test message name"', () => {
     const {getByText} = render((
